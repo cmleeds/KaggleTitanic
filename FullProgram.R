@@ -100,4 +100,4 @@ row.names(solution) <- NULL
 
 
 # print solution
-write.csv(solution,"TitanicPrediction_rf.csv")
+write.csv(solution,"TitanicPrediction_rf.csv",row.names = F)
